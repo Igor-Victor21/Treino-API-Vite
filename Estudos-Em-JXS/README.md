@@ -113,7 +113,7 @@ return(<><p>Personagens não encontrados (Erro 404)</p></>)
 
 - É extamente o que acontece com o próximo bloco de informações que fica dentro do mapeamento (COMENTADO PQ PODE BUGAR O README)
 
-  <!-- <section>
+  <section>
     {data.map((item,index) => (
       <div key={index}>
         <img src={item.image} alt={item.name} style={{width: '100px', '100px'}}/>
@@ -121,11 +121,11 @@ return(<><p>Personagens não encontrados (Erro 404)</p></>)
         <p>{item.species}</p>
       </div>
     ))}
-  </section> -->
+  </section>
 
 # CÓDIGO COMPLETO (COMENTADO PQ PODE BUGAR O README)
 
-<!-- import style from './App.module.css'
+import style from './App.module.css'
 import { useEffect, useState } from 'react'
 import { api } from './api/api'
 
@@ -162,5 +162,5 @@ function App() {
   )
 }
 
-export default App -->
+export default App
 
