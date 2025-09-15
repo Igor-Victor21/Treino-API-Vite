@@ -150,15 +150,15 @@ function App() {
   }
 
   return (
-    <section>
+    section
       {data.map((item,index) => (
-        <div key={index}>
-          <img src={item.image} alt={item.name} style={{width: '100px', height: '100px'}}/>
-          <p>{item.name}</p>
-          <p>{item.species}</p>
-        </div>
+        div key={index}
+          img src={item.image} alt={item.name} style={{width: '100px', height: '100px'}}
+          p{item.name}/p
+          p{item.species}/p
+        /div
       ))}
-    </section>
+    /section
   )
 }
 
